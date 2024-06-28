@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+.collapse ul{
+    gap:60px;
+}
+.carouselExample{
+    position: absolute;
+}
+.carousel-caption{
+    position: relative;
+    bottom:400px;
+}
+.carousel-caption h2{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.carousel-caption h2,h1{
+text-align:left;
+}
+.carousel-caption button{
+    background-color:rgb(38, 239, 239);
+    color:white;
+    height:50px;
+    width:140px;
+    border-radius: 40px;
+    border: none;
+    margin-left: -1114px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height:300px;
+    margin-top: -241px;
+
+}
+.grid-item1{
+background-color: rgb(157, 241, 241) ;
+
+}
+.grid-item2{
+    background-color: rgb(76, 239, 239);
+    
+}
+.about{
+    height:50px;
+    width:180px;
+    border-radius: 25px;
+    border:2px solid aqua;
+    background: transparent;
+}
+.about:hover{
+    background-color: aqua;
+    color:white;
+   
+}
+.second-body{
+    background-size: cover;
+    background-position: fixed;
+    background-image: url(https://img.freepik.com/free-photo/view-3d-coffee-cup-with-roasted-beans_23-2151083808.jpg?t=st=1718549572~exp=1718553172~hmac=9d0e14a87ff649dba3cd6c68fb638b7f693924f1b0b943bc41007fe91976a0b4&w=900);
+}
+.about1{
+    height:50px;
+    width:180px;
+    border-radius: 25px;
+    border:2px solid aqua;
+    background: transparent;
+    color:white;
+}
+.about1:hover{
+    background-color: aqua;
+    color:white; 
+}
+.div2{
+    display: inline-flex;
+    background-color: white;
+}
+.div3{
+    
+}
+.div3a{
+    display:inline-block;
+    height:450px;
+    width:250px;
+    background-color: aqua;
+    margin-top:100px;
+    margin-left:50px;
+}
+.div3a img{
+    height:350px;
+    width:380px;
+    margin-top:50px;
+    margin-left:-50px;
+}
+.main-div{
+   padding-top:-100px;
+   display:inline-block;
+   margin-left:100px
+}
+.grid{
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.grid-item h5{
+    text-align: center;
+}
+.grid-item .color{
+    color:aqua;
+}
+.grid-item{
+    height:350px;
+     
+}
+.grid-item img{
+    height:200px;
+    width:200px;
+    margin-right:80px;
+}
+.grid-image{
+    height:200px;
+    width:200px;
+    margin-bottom: 25px;
+}
+.grid-image:hover{
+    background-color: aqua;
+}
+.section1{
+    display:grid;
+    grid-template-columns: 280px auto;
+    column-gap: 100px;
+}
+.section1a{
+   
+  
+}
+.section1b{
+    margin-top:60px;
+}
+.section2{
+    padding:80px 80px;
+    background-image: url(https://img.freepik.com/free-photo/view-3d-coffee-cup_23-2151083682.jpg?t=st=1718603213~exp=1718606813~hmac=ead7ca73388d880f8284cb0961315ee957e9f92a74828ef6399eff2ce8172cc8&w=900);
+    background-size: cover;
+}
+.section2a{
+    background-color: white;
+    width:500px;
+    padding:60px 60px 60px 50px;
+    position:relative;
+    left:600px;
+    top:30px;
+    padding-top:100px;
+}
+.section2b{
+    background-color: white;
+    width:500px;
+    padding:60px 60px 60px 50px;
+    position:relative;
+    left:0;
+    top:30px;
+    padding-top:100px;
+}
+.section3{
+    display:grid;
+    grid-template-columns: 500px auto;
+}
+.section3 input{
+    height:50px;
+    width:200px;
+    background: transparent;
+    border:1px solid white;
+}
+.section3 select{
+    height:50px;
+    width:200px;
+    border:1px solid white;
+    background: transparent;
+}
+.about2{
+    height:50px;
+    width:180px;
+    border-radius: 25px;
+    border:2px solid white;
+    margin-top:20px;
+}
+.about2:hover{
+    background-color: aqua;
+    color:white;
+}
+.section4{
+    background-image: url(https://img.freepik.com/free-photo/view-3d-coffee-cup-with-roasted-beans_23-2151083770.jpg?t=st=1718685655~exp=1718689255~hmac=f3e49c961af9e5241e933ee9abdd0c3058092bca569bac9850cb69cb23536107&w=900);
+    padding-left:80px;
+    padding-top:80px;
+    background-size: cover;
+    height:500px;
+}
+.carousel-item{
+    border:1px solid white;
+    background: transparent;
+}
+.section5{
+    margin-bottom: 100px;
+}
+.section5a{
+    height:300px;
+    display:grid;
+    grid-template-columns: 550px 550px;
+    column-gap: 30px;
+    margin:0 80px 170px;
+}
+.section5b{
+    height:300px;
+    display:grid;
+    grid-template-columns: 550px 550px;
+    column-gap: 30px;
+    margin:0 80px 170px;
+}
+.section5c{
+    height:300px;
+    display:grid;
+    grid-template-columns: 550px 550px;
+    column-gap: 30px;
+    margin:0 80px ;
+}
+.section5-1a img{
+    height:300px;
+    width:550px;
+    object-fit: cover;
+}
+.about3{
+    height:50px;
+    width:180px;
+    border-radius: 25px;
+    border:2px solid aqua;
+    margin-top:20px;
+}
+.about3:hover{
+    background-color: aqua;
+    color:white;
+}
+.section6{
+    display:inline-flex;
+    background-image: url(https://img.freepik.com/free-photo/view-3d-coffee-cup-with-roasted-beans_23-2151083808.jpg?t=st=1718689733~exp=1718693333~hmac=1ea0662da40ea801273f94f175558328163827064ce435a572c763ce3ee3c9c2&w=900);
+    height:400px;
+    width:100%;
+    background-size: cover;
+    padding:100px 150px;
+    gap:80px;
+}
+
+footer{
+    background-image: url(https://img.freepik.com/free-photo/view-3d-coffee-cup_23-2151083681.jpg?t=st=1719568978~exp=1719572578~hmac=8674d32760b20d1dd4f91a59b6818d9fac962d05ef6b6f2c245f58acee2fb2e8&w=900);
+    padding:100px 100px 10px 100px;
+    background-size: cover;
+}
+.footer-grid{
+    display:grid;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 50px;
+}
+.footer-grid-item1 i{
+color:white;
+margin-right:30px;
+}
+.about4{
+    height:50px;
+    width:180px;
+    border-radius: 25px;
+    border:2px solid aqua;
+    margin-top:20px;
+    background-color: transparent;
+    color:white;
+}
+.about4:hover{
+    background-color: aqua;
+}
+.about5{
+    height:50px;
+    width:180px;
+    border-radius: 25px;
+    border:2px solid white;
+    margin-top:20px;
+    background-color: aqua;
+    color:white;   
+    border:none;
+}
+.about5:hover{
+    background-color:white;
+    color:black;   
+}
+
+
+
+
